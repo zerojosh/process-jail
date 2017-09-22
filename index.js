@@ -91,7 +91,7 @@ controller.hears('hello', 'direct_message', function (bot, message) {
 });
 
 controller.hears('hello', 'message_received', function (bot, message) {
-    bot.reply(message, 'Hello direct!');
+    bot.reply(message, 'Hello general!');
 });
 
 
