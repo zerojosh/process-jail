@@ -90,7 +90,7 @@ controller.hears('hello', 'direct_message', function (bot, message) {
     bot.reply(message, 'Hello direct!');
 });
 
-controller.hears('hello', 'message_received', function (bot, message) {
+controller.hears('hello', 'ambient', function (bot, message) {
     bot.reply(message, 'Hello general!');
 });
 
