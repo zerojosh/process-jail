@@ -89,6 +89,9 @@ controller.hears('hello', 'message_received', function (bot, message) {
     bot.reply(message, 'Hello!');
 });
 
+controller.hears('hello', 'direct_message', function (bot, message) {
+    bot.reply(message, 'Hello direct!');
+});
 
 /**
  * AN example of what could be:
