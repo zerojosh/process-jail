@@ -90,6 +90,12 @@ controller.hears('hello', 'direct_message', function (bot, message) {
     bot.reply(message, 'Hello direct!');
 });
 
+controller.hears('hello', 'message_received', function (bot, message) {
+    bot.reply(message, 'Hello direct!');
+});
+
+
+
 /**
  * AN example of what could be:
  * Any un-handled direct mention gets a reaction and a pat response!
